@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 2
+names: ['car', 'person']
+
+roboflow:
+  workspace: mavencode-cybmm
+  project: humancardetector
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mavencode-cybmm/humancardetector/dataset/1
