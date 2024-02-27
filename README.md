@@ -20,7 +20,12 @@ The Human-Car-Traffic Object detection project is an object detection web servic
  
 <a name="installation"></a>
 ## Installation
-In order to make use of the 
+In order to run this project successfully you have to have to install the following:
+
+- __Python__: You can install python by visiting the website [python website](https://www.python.org/)
+- __Flask__: You can install flask by executing ``pip install Flask`` on your terminal.
+- __PIL__: You can install pillow by executing ``pip install Pillow`` on your terminal.
+- __Ultralytics__: You can install ultralytics by executing ``pip install ultralytics`` on your terminal.
 
 <a name="usage"></a>
 ## Usage
