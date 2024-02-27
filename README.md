@@ -20,17 +20,25 @@ The Human-Car-Traffic Object detection project is an object detection web servic
  
 <a name="installation"></a>
 ## Installation
-In order to run this project successfully you have to have to install the following:
+In order to run this project successfully you have to install the following:
 
-- __Python__: You can install python by visiting the website [python website](https://www.python.org/)
-- __Flask__: You can install flask by executing ``pip install Flask`` on your terminal.
-- __PIL__: You can install pillow by executing ``pip install Pillow`` on your terminal.
-- __Ultralytics__: You can install ultralytics by executing ``pip install ultralytics`` on your terminal.
+- __Python__: To install python, visit [python website](https://www.python.org/)
+- __Flask__: To install flask execute ``pip install Flask`` on your terminal.
+- __PIL__: To install pillow execute ``pip install Pillow`` on your terminal.
+- __Ultralytics__: To install ultralytics execute ``pip install ultralytics`` on your terminal.
 
 <a name="usage"></a>
 ## Usage
-This is the usage section.
+In order to make use of the project seamlessly the following should be taken note of:
+
+- In the Web_Object_Detector folder, there are two other folders and two models in it. The two folders are __human_car__ and __traffic__ in each of them as stated before are the html file and the python file
+- Before running the code always check the python file (object_detector.py) to see if the the paths listed for making use of the html file and the path for making use of the model are correct.
+- To run the project you run ``python object_detector.py`` on the current path you are working on.
+- To see the result(s) you have to run:
+      - ``http://localhost:3030/`` for the human_car detection
+      - ``http://localhost:8080/`` for the traffic detection
+- To end the running project you have to execute Ctrl + C
 
 <a name="license"></a>
 ## License
-This is the license section.
+Contributions are permissible on this project. Thank you.
